@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>限时展示</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            text-align: center;
+            max-width: 90%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .expire-notice {
+            margin-top: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>限时展示 · 5小时后自动失效</h2>
+        < img src="【这里粘贴你刚才复制的图片链接】" alt="限时图片">
+        <div class="expire-notice">
+            本图片将在上传后5小时自动删除，之后将无法访问。
+        </div>
+    </div>
+</body>
+</html>
