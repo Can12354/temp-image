@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>图片展示</title>
+    <title>我的专属图片网页</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        /* 让页面没有多余空白，图片居中显示 */
         body {
-            background-color: #f0f0f0;
+            margin: 0;
+            padding: 10px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
+        /* 图片自适应屏幕大小，不会变形 */
         img {
-            width: 100%;
-            height: auto;
-            display: block;
+            max-width: 100%;
+            max-height: 90vh;
+            border: none;
         }
     </style>
 </head>
 <body>
-    < img src="https://i.ibb.co/4R4JNYnz.jpg" alt="展示图片">
+    <!-- 这里是你给的图片链接，已经帮你填好了 -->
+    <img src="https://xxoe.cn/url.php?token=17cda6849e940abc0c06a6e1491c5cad" alt="我的图片">
 </body>
 </html>
